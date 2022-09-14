@@ -21,7 +21,7 @@
               <h5 class="card-title" style="font-weight: bold">{{items[0].title}}</h5>
               <h5>{{items[0].subtitle}}</h5>
               <p class="card-text">{{items[0].text}}</p>
-              <router-link to="/details/1" class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto">Več o izdelku 1</router-link>
+              <router-link to="/details/1" class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto">Več o izdelku</router-link>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
               <h5 class="card-title" style="font-weight: bold">{{items[1].title}}</h5>
               <h5>{{items[1].subtitle}}</h5>
               <p class="card-text">{{items[1].text}}</p>
-              <router-link to="/details/2" class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto">Več o izdelku 2</router-link>
+              <router-link to="/details/2" class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto">Več o izdelku</router-link>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
               <h5 class="card-title" style="font-weight: bold">{{items[2].title}}</h5>
               <h5>{{items[2].subtitle}}</h5>
               <p class="card-text">{{items[2].text}}</p>
-              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/3">Več o izdelku 3</router-link>
+              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/3">Več o izdelku</router-link>
 
             </div>
           </div>
@@ -55,7 +55,7 @@
               <h5 class="card-title" style="font-weight: bold">{{items[3].title}}</h5>
               <h5>{{items[3].subtitle}}</h5>
               <p class="card-text">{{items[3].text}}</p>
-              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/4">Več o izdelku 4</router-link>
+              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/4">Več o izdelku</router-link>
 
             </div>
           </div>
@@ -67,7 +67,7 @@
               <h5 class="card-title" style="font-weight: bold">{{items[4].title}}</h5>
               <h5>{{items[4].subtitle}}</h5>
               <p class="card-text">{{items[4].text}}</p>
-              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/5">Več o izdelku 5</router-link>
+              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/5">Več o izdelku</router-link>
 
             </div>
           </div>
