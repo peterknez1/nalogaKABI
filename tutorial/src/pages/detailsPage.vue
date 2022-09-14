@@ -8,7 +8,7 @@
             <router-link to="/">Domov</router-link>
             <router-link to="/">O nas</router-link>
             <router-link to="/">Kontakt</router-link>
-            <router-link to="/">Pisite nam</router-link>
+            <router-link to="/">Pišite nam</router-link>
             <router-link to="/">IZDELKI</router-link>
           </div><!--  -->
         </div>
