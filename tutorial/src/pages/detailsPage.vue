@@ -14,7 +14,8 @@
         </div>
       </div>
       <div class="row mt-4">
-        <ItemComponent :imgSrc="displayedItem.imgSrc" :title="displayedItem.title" :subtitle="displayedItem.subtitle" :text="displayedItem.text"></ItemComponent>
+        <ItemComponent :imgSrc="displayedItem.imgSrc" :title="displayedItem.title" :subtitle="displayedItem.subtitle"
+          :text="displayedItem.text"></ItemComponent>
       </div>
     </div>
   </div>
@@ -32,7 +33,9 @@ export default {
       items: [
         { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 1", "subtitle": "Podnaslov izdelka 1", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
         { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 2", "subtitle": "Podnaslov izdelka 2", "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
-        { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 3", "subtitle": "Podnaslov izdelka 3", "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." }
+        { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 3", "subtitle": "Podnaslov izdelka 3", "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." },
+        { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 4", "subtitle": "Podnaslov izdelka 4", "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
+        { "imgSrc": "../assets/item_image.png", "title": "IZDELEK 5", "subtitle": "Podnaslov izdelka 5", "text": "Fames ac turpis egestas sed tempus. Nec feugiat nisl pretium fusce id velit ut tortor pretium." }
       ],
       displayedItem: null,
     }
@@ -45,8 +48,14 @@ export default {
       case "2":
         this.displayedItem = this.$data.items[1];
         break;
-      default:
+      case "3":
         this.displayedItem = this.$data.items[2];
+        break;
+      case "4":
+        this.displayedItem = this.$data.items[3];
+        break;
+      default:
+        this.displayedItem = this.$data.items[4];
     }
 
     console.log('created method')
@@ -54,7 +63,7 @@ export default {
   },
   components: {
     ItemComponent
-}
+  }
 }
 </script>
 <style>

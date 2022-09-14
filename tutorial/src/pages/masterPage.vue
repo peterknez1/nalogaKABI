@@ -48,6 +48,30 @@
             </div>
           </div>
         </div>
+        <div class="col-sm">
+          <div class="card h-100" style="width: auto;">
+            <img class="card-img-top" src="../assets/item_image.png" alt="Card image cap">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title" style="font-weight: bold">{{items[3].title}}</h5>
+              <h5>{{items[3].subtitle}}</h5>
+              <p class="card-text">{{items[3].text}}</p>
+              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/4">Več o izdelku 4</router-link>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card h-100" style="width: auto;">
+            <img class="card-img-top" src="../assets/item_image.png" alt="Card image cap">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title" style="font-weight: bold">{{items[4].title}}</h5>
+              <h5>{{items[4].subtitle}}</h5>
+              <p class="card-text">{{items[4].text}}</p>
+              <router-link class="btn btn-primary mt-auto" style="margin-left: auto; margin-right: auto" to="/details/5">Več o izdelku 5</router-link>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -64,7 +88,9 @@ export default {
       items: [
         { "title": "IZDELEK 1", "subtitle": "Podnaslov izdelka 1", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
         { "title": "IZDELEK 2", "subtitle": "Podnaslov izdelka 2", "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
-        { "title": "IZDELEK 3", "subtitle": "Podnaslov izdelka 3", "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." }
+        { "title": "IZDELEK 3", "subtitle": "Podnaslov izdelka 3", "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." },
+        { "title": "IZDELEK 4", "subtitle": "Podnaslov izdelka 4", "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
+        { "title": "IZDELEK 5", "subtitle": "Podnaslov izdelka 5", "text": "Fames ac turpis egestas sed tempus. Nec feugiat nisl pretium fusce id velit ut tortor pretium." }
       ]
     }
   }
